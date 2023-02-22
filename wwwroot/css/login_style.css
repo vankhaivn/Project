@@ -1,0 +1,32 @@
+body{
+    overflow: hidden;
+}
+
+.wrap-container{
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    background-image: linear-gradient(180deg, rgba(33, 37, 41, 0.01), rgba(33, 37, 41, 1) 85%),radial-gradient(ellipse at top left, rgba(13, 110, 253, 0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(255, 228, 132, 0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(112, 44, 249, 0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(214, 51, 132, 0.5), transparent 50%);
+    flex-direction: column;
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, center;
+    white-space: normal;
+    object-fit: fill;
+    width: 100%;
+}
+
+.wrap-col{
+    padding-top: 50px;
+}
+
+.wrap-card{
+    border: none;
+}
+
+.wrap-form{
+    background: #9152f8;
+    background: -webkit-linear-gradient(top, #7579ff, #b224ef);
+    border: none;
+}
